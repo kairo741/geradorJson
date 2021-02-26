@@ -1,0 +1,4807 @@
+[{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548117,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 117",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 154818,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 118",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548119,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 119 ",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548120,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 120",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548121,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 121",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548122,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 122",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548123,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 123",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548124,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 124",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548125,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 125",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548126,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 126",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548127,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 127",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548128,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 128",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548129,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 129",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548130,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 130",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548131,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 131",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548132,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 132",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548133,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 133",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548134,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 134",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548135,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 135",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548136,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 136",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548137,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 137",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548138,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 138",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548139,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 139",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548140,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 140",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548141,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 141",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548142,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 142",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548143,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 143",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548144,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 144",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548145,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 145",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548146,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 146",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548147,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 147",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548148,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 148",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548149,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 149",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548150,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 150",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548151,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 151",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548152,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 152",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548153,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 153",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548154,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 154",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548155,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 155",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548156,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 156",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548157,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 157",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548158,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 158",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548159,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 159",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548160,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 160",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548161,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 161",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "The Earth Dragon Balls are about 7.5 cm (approximately 3 in) in diameter, and they summon a dragon named Shenron. They were created by Kami, and later re-created by Dende. Shenron can grant a wish within its powers as long as it does not create love, repeat a wish he previously granted, surpasses its creator's power, and meets a few more restrictions. Legitimate wishes include eternal youth, immortality, bringing back a scorched forest or even an annihilated planet.",
+  "erpId": 1548115,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Dragon ball 115",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 60,
+  "visibilidade": 2
+},{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548111,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 111",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548112,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 112",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548113,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 113",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+},
+{
+ 
+  "categorias": [
+    {
+      "codigoReferencia": "12",
+      "descricao": "update descricao 1",
+      "erpId": 100013,
+      "id": 12,
+      "inativo": true,
+      "nome": "Teste Update De Categoria 20",
+      "parent": 14
+    }
+  ],
+  "codigo": "10",
+  "codigoBarras": "0326526",
+  "descricao": "Um celular Motorola de dois mil e vinte e um ASDASDADS ",
+  "erpId": 1548114,
+  "estoque": {
+    "quantidade": 28,
+    "quantidadeMinima": 11
+  },
+  "fabricante": {
+    "id": 2,
+    "erpId": 2,
+    "inativo": true,
+    "nome": "TESTE KAIRO"
+  },
+  "inativo": true,
+  "ncm": "51151",
+  "nome": "Celular Motorola teste climba 114",
+  "peso": 10,
+  "referencia": "Celular",
+  "tipoProduto": "Celular",
+  "valorPreco": 10,
+  "visibilidade": 2
+}]
