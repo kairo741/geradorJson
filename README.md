@@ -4,7 +4,6 @@
 ![test](https://img.icons8.com/ultraviolet/2x/json.png)By Kairo ![test](https://img.icons8.com/ultraviolet/2x/json.png)
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 O programa faz:
 - Gera vários JSONs em arquivos .txt
 - Escolher qual ID vai começar
