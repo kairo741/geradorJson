@@ -4,7 +4,7 @@
 ![test](https://img.icons8.com/ultraviolet/2x/json.png)By Kairo ![test](https://img.icons8.com/ultraviolet/2x/json.png)
 
 
-O programa faz:
+**O programa faz:**
 - Gera vários JSONs em arquivos .txt
 - Escolher qual ID vai começar
 - Escolher quantos vai gerar
