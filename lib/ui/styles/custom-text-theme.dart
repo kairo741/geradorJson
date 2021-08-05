@@ -5,7 +5,7 @@ import 'app-colors.dart';
 final customTextTheme = TextTheme(
   subtitle1: TextStyle(
     fontSize: 17,
-    color: AppColors.kSecondaryTextColor,
+    color: AppColors.kTextColor,
     fontWeight: FontWeight.w300,
     letterSpacing: -1,
   ),
