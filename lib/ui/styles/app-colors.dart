@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   static final Color white = Color(0xFFFFFFFF);
-  static final Color grey2 = Color.fromARGB(255, 115, 115, 115);
-  static final Color lightGrey = Color.fromARGB(255, 150, 150, 150);
+  static final Color grey2 = Color.fromARGB(154, 115, 115, 115);
+  static final Color lightGrey = Color.fromARGB(255, 206, 206, 206);
   static final Color black = Color(0xFF514766);
   static final Color grey = Color(0xFF6E6680);
 
