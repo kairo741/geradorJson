@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gerador_json/core/model/json-fields.dart';
-import 'package:gerador_json/ui/screens/fill/view/fill-json-page.dart';
+import 'package:gerador_json/core/utils/constants.dart';
 import 'package:gerador_json/ui/screens/home/components/finish-button.dart';
 import 'package:gerador_json/ui/screens/home/components/json-field-name.dart';
 import 'package:gerador_json/ui/screens/home/components/plus-field-button.dart';
@@ -22,10 +22,17 @@ class HomeWidget extends State<HomePage> {
   //     onTap: onTap,
   //   );
   // }).toList();
+  var _countFields;
+  List<Map<String, dynamic>> _values = [];
   List<JsonFields> jsonFieldsList = [];
-  var textFieldNumber = 1;
-  var objectName = false;
+  var _childObjectStatus = false;
   var finish = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _countFields = 1;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +40,7 @@ class HomeWidget extends State<HomePage> {
         floatingActionButton: PlusFieldButton(
           onPressed: () {
             setState(() {
-              textFieldNumber++;
+              _countFields++;
             });
           },
         ),
@@ -50,82 +57,84 @@ class HomeWidget extends State<HomePage> {
         backgroundColor: AppColors.lightGrey,
         body: ListView(
           children: [
-            ListView.separated(
+            ListView.builder(
               shrinkWrap: true,
-              separatorBuilder: (context, index) => Divider(
-                color: Colors.black,
-              ),
               padding: const EdgeInsets.all(20),
-              itemCount: textFieldNumber,
+              itemCount: _countFields,
               itemBuilder: (context, i) {
+                ///Começa a contruição da pagina
+
                 JsonFields jsonField = JsonFields();
-                if (finish) {
-                  if (jsonField.name != null && jsonField.type != null) {
-                    jsonFieldsList.add(jsonField);
-                    if (textFieldNumber == i - 1) {
-                      Navigator.push(context, MaterialPageRoute(
-                        builder: (context) {
-                          return FillJsonPage(
-                            jsonFieldsList: jsonFieldsList,
-                          );
-                        },
-                      ));
-                    }
-                  }
-                }
-                return Padding(
-                    padding: const EdgeInsets.only(top: 15, right: 50, left: 50, bottom: 15),
-                    child: Form(
-                      child: Row(
-                        children: [
-                          Expanded(child: JsonFieldName(onChanged: (value) {
-                            jsonField.name = value;
-                          })),
-                          SizedBox(
-                            width: 15,
-                          ),
-                          Expanded(
-                              child: TypeFieldList(
-                            items: <String>[
-                              "String",
-                              "Boolean",
-                              "Integer",
-                              "Object",
-                            ].map<DropdownMenuItem<String>>((String value) {
-                              return DropdownMenuItem<String>(
-                                child: Text(value),
-                                value: value,
-                                onTap: () {
-                                  jsonField.type = value;
-                                  if (value == "Object") {
-                                    print(value);
-                                    setState(() {
-                                      objectName = true;
-                                    });
-                                  }
-                                },
-                              );
-                            }).toList(),
-                          )),
-                          if (objectName) ...[
-                            // todo - alterar essa verificação
-                            SizedBox(
-                              width: 15,
-                            ),
-                            Expanded(child: JsonFieldName(
-                              onChanged: (value) {
-                                jsonField.objectName = value;
-                                print(jsonField.name);
-                                print(jsonField.type);
-                                print(jsonField.objectName);
-                              },
-                            )),
-                          ]
-                        ],
-                      ),
-                    ));
+                // if (finish) { // todo verificar
+                //   if (jsonField.name != null && jsonField.type != null) {
+                //     jsonFieldsList.add(jsonField);
+                //     if (_countFields == i - 1) {
+                //       Navigator.push(context, MaterialPageRoute(
+                //         builder: (context) {
+                //           return FillJsonPage(
+                //             jsonFieldsList: jsonFieldsList,
+                //           );
+                //         },
+                //       ));
+                //     }
+                //   }
+                // }
+                return _fieldsRow(i);
               },
             ),
+          ],
+        ));
+  }
+
+  Widget _fieldsRow(int index) {
+    return Padding(
+        padding:
+            const EdgeInsets.only(top: 15, right: 50, left: 50, bottom: 15),
+        child: Column(
+          children: [
+            Row(
+              children: [
+                Expanded(child: JsonFieldName(onChanged: (value) {
+                  _onUpdate(index, value, JsonFields.NAME);
+                })),
+                SizedBox(
+                  width: 15,
+                ),
+                Expanded(
+                    child: TypeFieldList(
+                  items: <String>[
+                    "String",
+                    "Boolean",
+                    "Integer",
+                    "Object",
+                  ].map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      child: Text(value),
+                      value: value,
+                      onTap: () {
+                        _onUpdate(index, value, JsonFields.TYPE);
+                        _setChildObjectStatys(index, value);
+                      },
+                    );
+                  }).toList(),
+                )),
+                if (_searchStatusChildObject(index)) ...[
+                  // todo - alterar essa verificação
+                  SizedBox(
+                    width: 15,
+                  ),
+                  Expanded(child: JsonFieldName(
+                    onChanged: (value) {
+                      _onUpdate(index, value, JsonFields.OBJECT_NAME);
+                    },
+                  )),
+                ],
+              ],
+            ),
+            Divider(
+              // height: 10,
+              color: AppColors.grey2,
+            )
           ],
         ));
   }
@@ -143,6 +152,68 @@ class HomeWidget extends State<HomePage> {
       // Fluttertoast.showToast(msg: "Erro ao gerar JSON");
       debugPrint(e.toString());
     }
+  }
+
+  _setChildObjectStatys(int index, String type) {
+    if (type == "Object") {
+      _onUpdate(index, Constants.ACTIVE, JsonFields.CHILD_OBJECT_STATUS);
+      setState(() {});
+    } else {
+      _onUpdate(index, Constants.INACTIVE, JsonFields.CHILD_OBJECT_STATUS);
+      setState(() {});
+      // todo - fazer parte do nome do filho
+    }
+  }
+
+  bool _searchStatusChildObject(int index) {
+    ///repetição da lógica de busca
+    for (var map in _values) {
+      if (map.containsKey('id')) {
+        if (map.containsKey(JsonFields.CHILD_OBJECT_STATUS)) {
+          if (map['id'] == index) {
+            if (map[JsonFields.CHILD_OBJECT_STATUS] == Constants.ACTIVE) {
+              return true;
+            } else {
+              return false;
+            }
+          }
+        }
+      }
+    }
+    return false;
+  }
+
+  int _searchInMap(int index) {
+    int foundIndex = -1;
+
+    ///busca para ver se o registro já foi inserido
+    ///para não haver duplicação de chaves
+    for (var map in _values) {
+      if (map.containsKey('id')) {
+        if (map['id'] == index) {
+          // todo - verificar se está funcionando
+          foundIndex = index;
+          break;
+        }
+      }
+    }
+    return foundIndex;
+  }
+
+  ///Json Logic
+  _onUpdate(int index, String value, String fieldName) {
+    int foundIndex = _searchInMap(index);
+
+    if (-1 != foundIndex) {
+      _values.removeWhere((element) {
+        return element['id'] == foundIndex;
+      });
+    }
+    Map<String, dynamic> json = {'id': index, fieldName: value};
+
+    _values.add(json);
+
+    print(_values);
   }
 
   _closeDialog(BuildContext context) {
