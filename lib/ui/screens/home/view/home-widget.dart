@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gerador_json/core/controller/home/home-controller.dart';
 import 'package:gerador_json/core/model/json-fields.dart';
 import 'package:gerador_json/core/utils/constants.dart';
 import 'package:gerador_json/ui/screens/home/components/finish-button.dart';
@@ -10,22 +11,11 @@ import 'package:gerador_json/ui/shared-components/shared-app-bar.dart';
 import 'package:gerador_json/ui/styles/app-colors.dart';
 
 class HomeWidget extends State<HomePage> {
-  // List<DropdownMenuItem<String>>? items = <String>[
-  //   "String",
-  //   "Boolean",
-  //   "Integer",
-  //   "Object",
-  // ].map<DropdownMenuItem<String>>((String value) {
-  //   return DropdownMenuItem<String>(
-  //     child: Text(value),
-  //     value: value,
-  //     onTap: onTap,
-  //   );
-  // }).toList();
+  final HomeController _controller = HomeController();
+  var _json;
+
   var _countFields;
-  List<Map<String, dynamic>> _values = [];
-  List<JsonFields> jsonFieldsList = [];
-  var _childObjectStatus = false;
+  List<JsonFields> _jsonFieldsList = [];
   var finish = false;
 
   @override
@@ -63,22 +53,6 @@ class HomeWidget extends State<HomePage> {
               itemCount: _countFields,
               itemBuilder: (context, i) {
                 ///Começa a contruição da pagina
-
-                JsonFields jsonField = JsonFields();
-                // if (finish) { // todo verificar
-                //   if (jsonField.name != null && jsonField.type != null) {
-                //     jsonFieldsList.add(jsonField);
-                //     if (_countFields == i - 1) {
-                //       Navigator.push(context, MaterialPageRoute(
-                //         builder: (context) {
-                //           return FillJsonPage(
-                //             jsonFieldsList: jsonFieldsList,
-                //           );
-                //         },
-                //       ));
-                //     }
-                //   }
-                // }
                 return _fieldsRow(i);
               },
             ),
@@ -87,6 +61,8 @@ class HomeWidget extends State<HomePage> {
   }
 
   Widget _fieldsRow(int index) {
+    var fields = JsonFields(id: index);
+
     return Padding(
         padding:
             const EdgeInsets.only(top: 15, right: 50, left: 50, bottom: 15),
@@ -95,7 +71,8 @@ class HomeWidget extends State<HomePage> {
             Row(
               children: [
                 Expanded(child: JsonFieldName(onChanged: (value) {
-                  _onUpdate(index, value, JsonFields.NAME);
+                  fields.name = value;
+                  _onUpdate(index, fields, JsonFields.NAME);
                 })),
                 SizedBox(
                   width: 15,
@@ -105,15 +82,34 @@ class HomeWidget extends State<HomePage> {
                   items: <String>[
                     "String",
                     "Boolean",
-                    "Integer",
+                    "Number",
+                    "Array",
+                    "Null",
                     "Object",
                   ].map<DropdownMenuItem<String>>((String value) {
                     return DropdownMenuItem<String>(
                       child: Text(value),
                       value: value,
-                      onTap: () {
-                        _onUpdate(index, value, JsonFields.TYPE);
-                        _setChildObjectStatys(index, value);
+                      onTap: () async {
+                        fields.type = value;
+                        if (value == "Object") {
+                          setState(() {
+                            fields.childObjectStatus = Constants.ACTIVE;
+                            // print("é object " + fields.childObjectStatus!);
+                          });
+                        } else {
+                          setState(() {
+                            fields.childObjectStatus = Constants.INACTIVE;
+                            // print("não é object " + fields.childObjectStatus!);
+                          });
+                          // todo - fazer parte do nome do filho
+                        }
+                        _jsonFieldsList.forEach((element) {
+                          if (element.id == fields.id) {
+                            return;
+                          }
+                        });
+                        await _onUpdate(index, fields, JsonFields.TYPE);
                       },
                     );
                   }).toList(),
@@ -125,7 +121,8 @@ class HomeWidget extends State<HomePage> {
                   ),
                   Expanded(child: JsonFieldName(
                     onChanged: (value) {
-                      _onUpdate(index, value, JsonFields.OBJECT_NAME);
+                      fields.childObjectName = value;
+                      _onUpdate(index, fields, JsonFields.OBJECT_NAME);
                     },
                   )),
                 ],
@@ -140,84 +137,76 @@ class HomeWidget extends State<HomePage> {
   }
 
   _formFinished(BuildContext context) async {
-    _showDialog(context);
-    try {
-      setState(() {
-        finish = true;
-      });
-      debugPrint(jsonFieldsList.toString());
-      _closeDialog(context);
-    } catch (e) {
-      _closeDialog(context);
-      // Fluttertoast.showToast(msg: "Erro ao gerar JSON");
-      debugPrint(e.toString());
+    // _showDialog(context);
+    if (_jsonFieldsList.isNotEmpty) {
+      try {
+        setState(() {
+          finish = true;
+        });
+        // debugPrint(jsonFieldsList.toString());
+        _controller.goToFill(context, _jsonFieldsList);
+        // _closeDialog(context);
+      } catch (e) {
+        // _closeDialog(context);
+        // Fluttertoast.showToast(msg: "Erro ao gerar JSON");
+        debugPrint(e.toString());
+      }
+    } else {
+      // todo - fazer uma alertbox ou algo do tipo
     }
   }
 
-  _setChildObjectStatys(int index, String type) {
-    if (type == "Object") {
-      _onUpdate(index, Constants.ACTIVE, JsonFields.CHILD_OBJECT_STATUS);
-      setState(() {});
-    } else {
-      _onUpdate(index, Constants.INACTIVE, JsonFields.CHILD_OBJECT_STATUS);
-      setState(() {});
-      // todo - fazer parte do nome do filho
-    }
+  _alredyExists(int index) {
+    var exists = false;
+    _jsonFieldsList.forEach((element) {
+      if (element.id == index) {
+        exists = true;
+        return;
+      }
+    });
+    return exists;
   }
 
   bool _searchStatusChildObject(int index) {
-    ///repetição da lógica de busca
-    for (var map in _values) {
-      if (map.containsKey('id')) {
-        if (map.containsKey(JsonFields.CHILD_OBJECT_STATUS)) {
-          if (map['id'] == index) {
-            if (map[JsonFields.CHILD_OBJECT_STATUS] == Constants.ACTIVE) {
-              return true;
-            } else {
-              return false;
-            }
-          }
-        }
+    var result = false;
+    _jsonFieldsList.forEach((element) {
+      if (element.id == index &&
+          element.childObjectStatus == Constants.ACTIVE) {
+        result = true;
+        return;
       }
-    }
-    return false;
-  }
-
-  int _searchInMap(int index) {
-    int foundIndex = -1;
-
-    ///busca para ver se o registro já foi inserido
-    ///para não haver duplicação de chaves
-    for (var map in _values) {
-      if (map.containsKey('id')) {
-        if (map['id'] == index) {
-          // todo - verificar se está funcionando
-          foundIndex = index;
-          break;
-        }
-      }
-    }
-    return foundIndex;
+    });
+    // print((index.toString() + result.toString()));
+    return result;
   }
 
   ///Json Logic
-  _onUpdate(int index, String value, String fieldName) {
-    int foundIndex = _searchInMap(index);
+  _onUpdate(int index, JsonFields fields, String alteredField) {
+    var stop = false;
 
-    if (-1 != foundIndex) {
-      _values.removeWhere((element) {
-        return element['id'] == foundIndex;
-      });
+    _jsonFieldsList.forEach((element) {
+      if (element.id == fields.id) {
+        if (alteredField == JsonFields.NAME) {
+          element.name = fields.name;
+        } else if (alteredField == JsonFields.TYPE) {
+          element.type = fields.type;
+          element.childObjectStatus = fields.childObjectStatus;
+        } else if (alteredField == JsonFields.OBJECT_NAME) {
+          element.childObjectName = fields.childObjectName;
+        }
+
+        _jsonFieldsList.removeAt(fields.id!);
+        _jsonFieldsList.insert(fields.id!, element);
+        stop = true;
+        return;
+      }
+    });
+
+    if (stop) {
+      return;
+    } else {
+      _jsonFieldsList.add(fields);
     }
-    Map<String, dynamic> json = {'id': index, fieldName: value};
-
-    _values.add(json);
-
-    print(_values);
-  }
-
-  _closeDialog(BuildContext context) {
-    Navigator.pop(context);
   }
 
   _showDialog(BuildContext context) async {
