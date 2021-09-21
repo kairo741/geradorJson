@@ -3,8 +3,9 @@ import 'package:gerador_json/ui/styles/app-colors.dart';
 
 class JsonFieldName extends StatelessWidget {
   final ValueChanged<String> onChanged;
+  final String? hintText;
 
-  JsonFieldName({required this.onChanged});
+  JsonFieldName({required this.onChanged, this.hintText = "Nome do campo do JSON"});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,7 @@ class JsonFieldName extends StatelessWidget {
         decoration: InputDecoration(
           fillColor: AppColors.levelButtonFacil,
           filled: true,
-          hintText: "Nome do campo do JSON",
+          hintText: hintText,
           border: InputBorder.none,
         ),
       ),
