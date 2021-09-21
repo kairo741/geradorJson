@@ -4,27 +4,31 @@ class JsonFields {
   static const String TYPE = 'type';
   static const String OBJECT_NAME = 'object_name';
   static const String CHILD_OBJECT_STATUS = 'child_object_status';
+  static const String MAIN_JSON = 'main_json';
 
   int? id;
   String? name;
   String? type; // TODO - TRANSFORMAR EM ENUM
-  String? childObjectName;
+  String? fatherObjectName;
   String? childObjectStatus;
+  bool? mainJson;
 
   JsonFields({
     this.id,
     this.name,
     this.type,
-    this.childObjectName,
+    this.fatherObjectName,
     this.childObjectStatus,
+    this.mainJson,
   });
 
   static JsonFields fromJson(Map<String, dynamic> json) => JsonFields(
         id: json[ID] as int?,
         name: json[NAME] as String?,
         type: json[TYPE] as String?,
-        childObjectName: json[OBJECT_NAME] as String?,
+        fatherObjectName: json[OBJECT_NAME] as String?,
         childObjectStatus: json[CHILD_OBJECT_STATUS] as String?,
+        mainJson: json[MAIN_JSON] as bool?,
       );
 
   Map<String, dynamic> toJson() {
@@ -32,8 +36,9 @@ class JsonFields {
       ID: this.id,
       NAME: this.name,
       TYPE: this.type,
-      OBJECT_NAME: this.childObjectName,
+      OBJECT_NAME: this.fatherObjectName,
       CHILD_OBJECT_STATUS: this.childObjectStatus,
+      MAIN_JSON: this.mainJson,
     };
   }
 }
