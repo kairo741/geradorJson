@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:gerador_json/core/controller/home/home-controller.dart';
 import 'package:gerador_json/core/model/json-fields.dart';
 import 'package:gerador_json/core/utils/constants.dart';
-import 'package:gerador_json/ui/screens/home/components/finish-button.dart';
+import 'package:gerador_json/ui/screens/home/components/shared-button.dart';
 import 'package:gerador_json/ui/screens/home/components/json-field-name.dart';
-import 'package:gerador_json/ui/screens/home/components/plus-field-button.dart';
+import 'package:gerador_json/ui/screens/home/components/old-plus-field-button.dart';
 import 'package:gerador_json/ui/screens/home/components/type-field-list.dart';
 import 'package:gerador_json/ui/screens/home/view/home-page.dart';
 import 'package:gerador_json/ui/shared-components/shared-app-bar.dart';
@@ -35,36 +35,43 @@ class HomeWidget extends State<HomePage> {
           },
         ),
         appBar: SharedAppBar(
-          "Tela inicial alterar",
+          title: Padding(
+            padding:
+                const EdgeInsets.only(left: 80, right: 80, top: 15, bottom: 15),
+            child: JsonFieldName(
+                hintText: "Nome da classe do JSON a ser criado",
+                onChanged: (value) {
+                  _mainJson.name = value;
+                }),
+          ),
           actions: [
             FinishButton(
+              icon: Icons.add,
+              label: "Campos",
+              onPressed: () {
+                setState(() {
+                  _countFields++;
+                });
+              },
+            ),
+            FinishButton(
+              icon: Icons.save,
+              label: "Finalizar",
               onPressed: () async {
                 await _formFinished(context);
               },
-            )
+            ),
           ],
         ),
         backgroundColor: AppColors.lightGrey,
-        body: ListView(
-          children: [
-            Padding(
-              padding: const EdgeInsets.only(left: 80, right: 80, top: 15),
-              child: JsonFieldName(
-                  hintText: "Nome da classe do JSON a ser criado",
-                  onChanged: (value) {
-                    _mainJson.name = value;
-                  }),
-            ),
-            ListView.builder(
-              shrinkWrap: true,
-              padding: const EdgeInsets.all(20),
-              itemCount: _countFields,
-              itemBuilder: (context, i) {
-                ///Começa a contruição da pagina
-                return _fieldsRow(i);
-              },
-            ),
-          ],
+        body: ListView.builder(
+          shrinkWrap: true,
+          padding: const EdgeInsets.all(20),
+          itemCount: _countFields,
+          itemBuilder: (context, i) {
+            ///Começa a contruição da pagina
+            return _fieldsRow(i);
+          },
         ));
   }
 
@@ -147,20 +154,20 @@ class HomeWidget extends State<HomePage> {
   _formFinished(BuildContext context) async {
     // _showDialog(context);
     // if (_jsonFieldsList.isNotEmpty) {
-      try {
-        setState(() {
-          _jsonFieldsList.add(_mainJson);
-          finish = true;
-        });
-        // debugPrint(jsonFieldsList.toString());
-        // _controller.goToFill(context, _jsonFieldsList);
-        _controller.goToFill(context, Constants.JSON_FIELDS_TEST_LIST);
-        // _closeDialog(context);
-      } catch (e) {
-        // _closeDialog(context);
-        // Fluttertoast.showToast(msg: "Erro ao gerar JSON");
-        debugPrint(e.toString());
-      }
+    try {
+      setState(() {
+        _jsonFieldsList.add(_mainJson);
+        finish = true;
+      });
+      // debugPrint(jsonFieldsList.toString());
+      // _controller.goToFill(context, _jsonFieldsList);
+      _controller.goToFill(context, Constants.JSON_FIELDS_TEST_LIST);
+      // _closeDialog(context);
+    } catch (e) {
+      // _closeDialog(context);
+      // Fluttertoast.showToast(msg: "Erro ao gerar JSON");
+      debugPrint(e.toString());
+    }
     // } else {
     //   // todo - fazer uma alertbox ou algo do tipo
     // }

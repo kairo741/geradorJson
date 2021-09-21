@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 
 class FinishButton extends StatelessWidget {
   final VoidCallback? onPressed;
+  final String label;
+  final IconData icon;
 
-  FinishButton({this.onPressed});
-
+  FinishButton({this.onPressed, this.label = "", required this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -16,8 +17,8 @@ class FinishButton extends StatelessWidget {
             textStyle: const TextStyle(fontSize: 20),
           ),
           onPressed: onPressed,
-          icon: Icon(Icons.save),
-          label: Text("Finalizar")),
+          icon: Icon(icon),
+          label: Text(label)),
     );
   }
 }
