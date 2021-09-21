@@ -12,7 +12,7 @@ import 'package:gerador_json/ui/styles/app-colors.dart';
 
 class HomeWidget extends State<HomePage> {
   final HomeController _controller = HomeController();
-  var _json;
+  JsonFields _mainJson = JsonFields(mainJson: true);
 
   var _countFields;
   List<JsonFields> _jsonFieldsList = [];
@@ -47,6 +47,14 @@ class HomeWidget extends State<HomePage> {
         backgroundColor: AppColors.lightGrey,
         body: ListView(
           children: [
+            Padding(
+              padding: const EdgeInsets.only(left: 80, right: 80, top: 15),
+              child: JsonFieldName(
+                  hintText: "Nome da classe do JSON a ser criado",
+                  onChanged: (value) {
+                    _mainJson.name = value;
+                  }),
+            ),
             ListView.builder(
               shrinkWrap: true,
               padding: const EdgeInsets.all(20),
@@ -121,7 +129,7 @@ class HomeWidget extends State<HomePage> {
                   ),
                   Expanded(child: JsonFieldName(
                     onChanged: (value) {
-                      fields.childObjectName = value;
+                      fields.fatherObjectName = value;
                       _onUpdate(index, fields, JsonFields.OBJECT_NAME);
                     },
                   )),
@@ -138,33 +146,24 @@ class HomeWidget extends State<HomePage> {
 
   _formFinished(BuildContext context) async {
     // _showDialog(context);
-    if (_jsonFieldsList.isNotEmpty) {
+    // if (_jsonFieldsList.isNotEmpty) {
       try {
         setState(() {
+          _jsonFieldsList.add(_mainJson);
           finish = true;
         });
         // debugPrint(jsonFieldsList.toString());
-        _controller.goToFill(context, _jsonFieldsList);
+        // _controller.goToFill(context, _jsonFieldsList);
+        _controller.goToFill(context, Constants.JSON_FIELDS_TEST_LIST);
         // _closeDialog(context);
       } catch (e) {
         // _closeDialog(context);
         // Fluttertoast.showToast(msg: "Erro ao gerar JSON");
         debugPrint(e.toString());
       }
-    } else {
-      // todo - fazer uma alertbox ou algo do tipo
-    }
-  }
-
-  _alredyExists(int index) {
-    var exists = false;
-    _jsonFieldsList.forEach((element) {
-      if (element.id == index) {
-        exists = true;
-        return;
-      }
-    });
-    return exists;
+    // } else {
+    //   // todo - fazer uma alertbox ou algo do tipo
+    // }
   }
 
   bool _searchStatusChildObject(int index) {
@@ -192,7 +191,7 @@ class HomeWidget extends State<HomePage> {
           element.type = fields.type;
           element.childObjectStatus = fields.childObjectStatus;
         } else if (alteredField == JsonFields.OBJECT_NAME) {
-          element.childObjectName = fields.childObjectName;
+          element.fatherObjectName = fields.fatherObjectName;
         }
 
         _jsonFieldsList.removeAt(fields.id!);
