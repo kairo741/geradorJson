@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gerador_json/core/model/json-fields.dart';
+import 'package:gerador_json/core/utils/constants.dart';
+import 'package:gerador_json/ui/screens/fill/view/fill-json-page.dart';
 import 'package:gerador_json/ui/screens/home/view/home-page.dart';
 import 'package:gerador_json/ui/styles/custom-text-theme.dart';
 
@@ -12,8 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Gerador de Json",
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Gotham-SSm', primarySwatch: Colors.red, textTheme: customTextTheme),
+      theme: ThemeData(
+          fontFamily: 'Gotham-SSm',
+          primarySwatch: Colors.red,
+          textTheme: customTextTheme),
       home: HomePage(),
+      // home: FillJsonPage(
+      //   jsons: Constants.JSON_FIELDS_LIST,
+      // ),
     );
   }
 }
