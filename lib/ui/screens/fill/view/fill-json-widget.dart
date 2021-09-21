@@ -5,7 +5,6 @@ import 'package:gerador_json/core/utils/constants.dart';
 import 'package:gerador_json/ui/screens/fill/json-field-data.dart';
 import 'package:gerador_json/ui/screens/fill/view/fill-json-page.dart';
 import 'package:gerador_json/ui/screens/home/components/finish-button.dart';
-import 'package:gerador_json/ui/screens/home/components/json-field-name.dart';
 import 'package:gerador_json/ui/shared-components/shared-app-bar.dart';
 import 'package:gerador_json/ui/styles/app-colors.dart';
 
@@ -64,8 +63,6 @@ class FillJsonWidget extends State<FillJsonPage> {
     );
   }
 
-  List<bool> _selections = List.generate(2, (index) => false);
-
   Widget _widgetByType(JsonFields field) {
     if (field.type == Constants.TYPE_BOOLEAN) {
       return Expanded(
@@ -81,7 +78,9 @@ class FillJsonWidget extends State<FillJsonPage> {
               });
             },
           ),
-          SizedBox(width: 50,),
+          SizedBox(
+            width: 50,
+          ),
           Text("False: "),
           Radio(
             value: false,
