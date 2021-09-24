@@ -10,12 +10,13 @@ class AppColors {
   // static final Color kPrimaryColor = Color(0xFF943734);
   static final Color kPrimaryColor = Color(0xFF943734);
   static final Color kSecondaryColor = Color(0xFFC46865);
+  static final Color kThirdColor = Color(0x9EC46865);
   static final Color kTextColor = Color.fromARGB(255, 25, 25, 25);
   static final Color kSecondaryTextColor = Color.fromARGB(255, 115, 115, 115);
   static final Color kInvoiceColor = Color.fromARGB(255, 38, 161, 221);
   static final Color kNextInvoiceColor = Color.fromARGB(255, 255, 120, 62);
   static final Color kLimitColor = Color.fromARGB(255, 35, 125, 70);
-  static final Color kUnviewColor = Color.fromARGB(255, 245, 245, 245);
+  static final Color kUnviewColor = Color.fromARGB(255, 234, 233, 233);
   static final Color kLineColor = Color.fromARGB(255, 204, 204, 204);
   static final Color kLabelButtonColor = Color.fromARGB(255, 240, 241, 245);
 
