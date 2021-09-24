@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:gerador_json/ui/styles/app-colors.dart';
-import 'package:gerador_json/ui/styles/app_text_styles.dart';
 
 class SharedAppBar extends PreferredSize {
   final List<Widget>? actions;

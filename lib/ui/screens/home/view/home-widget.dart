@@ -134,11 +134,23 @@ class HomeWidget extends State<HomePage> {
                   SizedBox(
                     width: 15,
                   ),
-                  Expanded(child: JsonFieldName(
-                    onChanged: (value) {
-                      fields.fatherObjectName = value;
-                      _onUpdate(index, fields, JsonFields.OBJECT_NAME);
-                    },
+                  Expanded(
+                      child:
+
+                          // JsonFieldName(
+                          //   onChanged: (value) {
+                          //     fields.fatherObjectName = value;
+                          //     _onUpdate(index, fields, JsonFields.OBJECT_NAME);
+                          //   },
+                          // )
+                          TypeFieldList(
+                    items: _getOptionsList(index)
+                        .map<DropdownMenuItem<String>>((String value) {
+                      return DropdownMenuItem<String>(
+                        child: Text(value),
+                        value: value,
+                      );
+                    }).toList(),
                   )),
                 ],
               ],
@@ -149,6 +161,15 @@ class HomeWidget extends State<HomePage> {
             )
           ],
         ));
+  }
+
+  List<String> _getOptionsList(int index) {
+    var _completeList = _jsonFieldsList;
+
+    _completeList.remove(_jsonFieldsList[index]);
+
+    var finalOptions = List<String>.from(_completeList.map((e) => e.name).toList());
+    return finalOptions;
   }
 
   _formFinished(BuildContext context) async {
@@ -215,15 +236,15 @@ class HomeWidget extends State<HomePage> {
     }
   }
 
-  _showDialog(BuildContext context) async {
-    var data;
-    await showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (context) => Center(
-        child: CircularProgressIndicator(),
-      ),
-    );
-    return data;
-  }
+  // _showDialog(BuildContext context) async {
+  //   var data;
+  //   await showDialog(
+  //     context: context,
+  //     barrierDismissible: false,
+  //     builder: (context) => Center(
+  //       child: CircularProgressIndicator(),
+  //     ),
+  //   );
+  //   return data;
+  // }
 }
