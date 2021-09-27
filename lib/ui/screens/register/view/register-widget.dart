@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gerador_json/core/model/user.dart';
+import 'package:gerador_json/core/utils/constants.dart';
 import 'package:gerador_json/ui/shared-components/input-field-icon.dart';
 import 'package:gerador_json/ui/screens/register/view/register-page.dart';
 import 'package:gerador_json/ui/styles/app-colors.dart';
@@ -142,7 +143,8 @@ class RegisterWidget extends State<RegisterPage> {
                   name: name,
                   admin: false,
                   username: username,
-                  password: password);
+                  password: password,
+                  userRole: [Constants.ROLE_USER]);
 
               // todo - fazer função no controller pra mandar pra API
             }
