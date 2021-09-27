@@ -13,6 +13,14 @@ class Constants {
   static const String TYPE_NULL = "Null";
   static const String TYPE_ARRAY = "Array";
 
+  static const String ROLE_USER = "ROLE_USER";
+  static const String ROLE_MODERATOR = "ROLE_MODERATOR";
+  static const String ROLE_ADMIN = "ROLE_ADMIN";
+
+  ///BACK API
+  static const String SERVER_IP = "https://gerador-json-back.loca.lt";
+  static const String CREATE_USER_PATH = "/create";
+
   static final List<JsonFields> JSON_FIELDS_LIST = [
     JsonFields(
         id: 0,
