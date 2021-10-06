@@ -31,7 +31,8 @@ class FinishService {
               !(jsons[i].fatherObjectName == jsons[i - 1].fatherObjectName)) {
             space += " " * 15;
           }
-          if (jsons[i].type == Constants.TYPE_STRING) {
+          if (jsons[i].type == Constants.TYPE_STRING &&
+              jsons[i].content != null) {
             finalJson +=
                 space + "\"${jsons[i].name}\": \"${jsons[i].content}\"";
           } else {
