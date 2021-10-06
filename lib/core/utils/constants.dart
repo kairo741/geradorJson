@@ -70,6 +70,12 @@ class Constants {
         childObjectStatus: "A",
         fatherObjectName: "OBJECT TYPE2",
         type: Constants.TYPE_NULL),
+    JsonFields(
+        id: 0,
+        name: "STRING TYPE",
+        childObjectStatus: "A",
+        fatherObjectName: "MAIN JSON",
+        type: Constants.TYPE_STRING),
   ];
 
   static final List<JsonFields> JSON_FIELDS_TEST_LIST = [
@@ -109,5 +115,11 @@ class Constants {
         childObjectStatus: "A",
         fatherObjectName: "MAIN JSON",
         type: Constants.TYPE_NUMBER),
+    JsonFields(
+        id: 0,
+        name: "STRING TYPE",
+        childObjectStatus: "A",
+        fatherObjectName: "MAIN JSON",
+        type: Constants.TYPE_STRING),
   ];
 }
