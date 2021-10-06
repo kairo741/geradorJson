@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gerador_json/ui/styles/app-colors.dart';
 
 class FinishButton extends StatelessWidget {
   final VoidCallback? onPressed;
@@ -10,6 +11,11 @@ class FinishButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+        color: AppColors.kPrimaryColor,
+        borderRadius: BorderRadius.circular(10)
+      ),
+      
       child: TextButton.icon(
           style: TextButton.styleFrom(
             padding: const EdgeInsets.all(16.0),

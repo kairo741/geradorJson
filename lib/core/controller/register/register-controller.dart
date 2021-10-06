@@ -14,10 +14,13 @@ class RegisterController {
   }
 
   goToHome(BuildContext context, User user) {
-    var screen = HomePage();
-    screen.user = user;
-    Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+    var screen = HomePage(
+      user: user,
+    );
+    // screen.user = user;
+    Navigator.of(context).pushAndRemoveUntil(
+        MaterialPageRoute(builder: (context) {
       return screen;
-    }));
+    }), (Route<dynamic> route) => false);
   }
 }

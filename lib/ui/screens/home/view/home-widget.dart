@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:gerador_json/core/controller/home/home-controller.dart';
 import 'package:gerador_json/core/model/json-fields.dart';
 import 'package:gerador_json/core/utils/constants.dart';
-import 'package:gerador_json/ui/screens/home/components/shared-button.dart';
 import 'package:gerador_json/ui/screens/home/components/json-field-name.dart';
-import 'package:gerador_json/ui/screens/home/components/old-plus-field-button.dart';
+import 'package:gerador_json/ui/screens/home/components/shared-button.dart';
 import 'package:gerador_json/ui/screens/home/components/type-field-list.dart';
 import 'package:gerador_json/ui/screens/home/view/home-page.dart';
 import 'package:gerador_json/ui/shared-components/shared-app-bar.dart';
@@ -27,11 +26,11 @@ class HomeWidget extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        floatingActionButton: PlusFieldButton(
-          onPressed: () {
-            setState(() {
-              _countFields++;
-            });
+        floatingActionButton: FinishButton(
+          icon: Icons.save,
+          label: "Finalizar",
+          onPressed: () async {
+            await _formFinished(context);
           },
         ),
         appBar: SharedAppBar(
@@ -54,13 +53,29 @@ class HomeWidget extends State<HomePage> {
                 });
               },
             ),
-            FinishButton(
-              icon: Icons.save,
-              label: "Finalizar",
-              onPressed: () async {
-                await _formFinished(context);
-              },
-            ),
+            if (widget.user != null) ...[
+              FinishButton(
+                icon: Icons.person,
+                label: "Olá ${widget.user!.name}",
+                onPressed: () {},
+              )
+            ] else ...[
+              FinishButton(
+                icon: Icons.login,
+                label: "Entre",
+                onPressed: () {
+                  _controller.goToLogin(context);
+                },
+              ),
+              FinishButton(
+                icon: Icons.app_registration_rounded,
+                label: "Cadastrar",
+                onPressed: () {
+                  _controller.goToRegister(context);
+                },
+              ),
+            ]
+            // _loggedButton()
           ],
         ),
         backgroundColor: AppColors.lightGrey,
@@ -69,7 +84,7 @@ class HomeWidget extends State<HomePage> {
           padding: const EdgeInsets.all(20),
           itemCount: _countFields,
           itemBuilder: (context, i) {
-            ///Começa a contruição da pagina
+            ///Começa a construção da pagina
             return _fieldsRow(i);
           },
         ));
@@ -168,7 +183,8 @@ class HomeWidget extends State<HomePage> {
 
     _completeList.remove(_jsonFieldsList[index]);
 
-    var finalOptions = List<String>.from(_completeList.map((e) => e.name).toList());
+    var finalOptions =
+        List<String>.from(_completeList.map((e) => e.name).toList());
     return finalOptions;
   }
 
@@ -236,15 +252,31 @@ class HomeWidget extends State<HomePage> {
     }
   }
 
-  // _showDialog(BuildContext context) async {
-  //   var data;
-  //   await showDialog(
-  //     context: context,
-  //     barrierDismissible: false,
-  //     builder: (context) => Center(
-  //       child: CircularProgressIndicator(),
-  //     ),
-  //   );
-  //   return data;
-  // }
+// _showDialog(BuildContext context) async {
+//   var data;
+//   await showDialog(
+//     context: context,
+//     barrierDismissible: false,
+//     builder: (context) => Center(
+//       child: CircularProgressIndicator(),
+//     ),
+//   );
+//   return data;
+// }
+
+// Widget _loggedButton() {
+//   if (widget.user != null) {
+//     return FinishButton(
+//       icon: Icons.person,
+//       label: "Olá ${widget.user!.name}",
+//       onPressed: () {},
+//     );
+//   } else {
+//     return FinishButton(
+//       icon: Icons.login,
+//       label: "Entre/Registre-se",
+//       onPressed: () {},
+//     );
+//   }
+// }
 }

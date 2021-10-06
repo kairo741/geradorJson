@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:gerador_json/core/controller/register/register-controller.dart';
 import 'package:gerador_json/core/model/user.dart';
 import 'package:gerador_json/core/utils/constants.dart';
-import 'package:gerador_json/ui/shared-components/input-field-icon.dart';
 import 'package:gerador_json/ui/screens/register/view/register-page.dart';
+import 'package:gerador_json/ui/shared-components/input-field-icon.dart';
 import 'package:gerador_json/ui/styles/app-colors.dart';
 
 class RegisterWidget extends State<RegisterPage> {
@@ -108,7 +107,7 @@ class RegisterWidget extends State<RegisterPage> {
                   }),
                   SizedBox(height: 40),
                   Padding(
-                    padding: const EdgeInsets.only(left: 50, right: 50),
+                    padding: const EdgeInsets.only(left: 50, right: 50, bottom: 30),
                     child: _registerButton(
                         context, MediaQuery.of(context).size.width * 0.3),
                   )
