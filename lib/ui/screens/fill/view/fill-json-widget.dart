@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:gerador_json/core/controller/finish/finish-controller.dart';
 import 'package:gerador_json/core/model/json-fields.dart';
 import 'package:gerador_json/core/utils/constants.dart';
 import 'package:gerador_json/ui/screens/fill/json-field-data.dart';
 import 'package:gerador_json/ui/screens/fill/view/fill-json-page.dart';
 import 'package:gerador_json/ui/screens/home/components/shared-button.dart';
-import 'package:gerador_json/ui/shared-components/shared-app-bar.dart';
 import 'package:gerador_json/ui/styles/app-colors.dart';
 
 class FillJsonWidget extends State<FillJsonPage> {
@@ -13,18 +13,19 @@ class FillJsonWidget extends State<FillJsonPage> {
 
   FillJsonWidget({required this.jsons});
 
+  FinishController _finishController = FinishController();
+
   bool group = true;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: SharedAppBar(
-          actions: [
-            FinishButton(
-              icon: Icons.save,
-              onPressed: () async {},
-            )
-          ],
+        floatingActionButton: FinishButton(
+          icon: Icons.save,
+          label: "Finalizar",
+          onPressed: () {
+            _finishController.goToFinish(context, jsons);
+          },
         ),
         backgroundColor: AppColors.lightGrey,
         body: Padding(
@@ -46,15 +47,27 @@ class FillJsonWidget extends State<FillJsonPage> {
   Widget _form(JsonFields field) {
     return Row(
       children: [
-        RichText(
-            text: TextSpan(
-                text: field.name!,
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                children: [
-              TextSpan(
-                  text: " (${field.type})",
-                  style: TextStyle(fontWeight: FontWeight.normal, fontSize: 18))
-            ])),
+        Column(
+          children: [
+            RichText(
+                text: TextSpan(
+                    text: field.name!,
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    children: [
+                  TextSpan(
+                      text: " (${field.type})",
+                      style: TextStyle(
+                          fontWeight: FontWeight.normal, fontSize: 18)),
+                ])),
+            if (field.fatherObjectName != null) ...[
+              Center(
+                child: Text(" [Filho de: ${field.fatherObjectName}]",
+                    style:
+                        TextStyle(fontWeight: FontWeight.normal, fontSize: 18)),
+              ),
+            ]
+          ],
+        ),
         SizedBox(
           width: 50,
         ),
@@ -71,10 +84,10 @@ class FillJsonWidget extends State<FillJsonPage> {
           Text("True: "),
           Radio(
             value: true,
-            groupValue: group,
+            groupValue: field.content != null ? field.content as bool : false,
             onChanged: (value) {
               setState(() {
-                group = true;
+                field.content = true;
               });
             },
           ),
@@ -84,19 +97,36 @@ class FillJsonWidget extends State<FillJsonPage> {
           Text("False: "),
           Radio(
             value: false,
-            groupValue: group,
+            groupValue: field.content != null ? field.content as bool : false,
             onChanged: (value) {
               setState(() {
-                group = false;
+                field.content = false;
               });
             },
           ),
         ],
       ));
-    } else {
+    } else if (field.type == Constants.TYPE_NULL) {
       return Expanded(
           child: JsonFieldData(
         onChanged: (v) {},
+        readOnly: true,
+      ));
+    } else if (field.type == Constants.TYPE_OBJECT) {
+      TextEditingController _objectTypeController = TextEditingController();
+      _objectTypeController.text = field.name!;
+      return Expanded(
+          child: JsonFieldData(
+        onChanged: (v) {},
+        readOnly: true,
+        controller: _objectTypeController,
+      ));
+    } else {
+      return Expanded(
+          child: JsonFieldData(
+        onChanged: (v) {
+          field.content = v;
+        },
         inputFormatters: field.type == Constants.TYPE_NUMBER
             ? [FilteringTextInputFormatter.digitsOnly]
             : null,
