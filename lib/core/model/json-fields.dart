@@ -6,6 +6,7 @@ class JsonFields {
   static const String CHILD_OBJECT_STATUS = 'child_object_status';
   static const String MAIN_JSON = 'main_json';
   static const String USER_ID = 'user_id';
+  static const String CONTENT = 'content';
 
   int? id;
   String? name;
@@ -14,6 +15,7 @@ class JsonFields {
   String? childObjectStatus;
   bool? mainJson;
   int? userId;
+  dynamic content;
 
   JsonFields({
     this.id,
@@ -23,6 +25,7 @@ class JsonFields {
     this.childObjectStatus,
     this.mainJson,
     this.userId,
+    this.content,
   });
 
   static JsonFields fromJson(Map<String, dynamic> json) => JsonFields(
@@ -33,6 +36,7 @@ class JsonFields {
         childObjectStatus: json[CHILD_OBJECT_STATUS] as String?,
         mainJson: json[MAIN_JSON] as bool?,
         userId: json[USER_ID] as int?,
+        content: json[CONTENT],
       );
 
   Map<String, dynamic> toJson() {
@@ -44,6 +48,7 @@ class JsonFields {
       CHILD_OBJECT_STATUS: this.childObjectStatus,
       MAIN_JSON: this.mainJson,
       USER_ID: this.userId,
+      CONTENT: this.content,
     };
   }
 }

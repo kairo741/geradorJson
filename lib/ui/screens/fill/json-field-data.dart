@@ -5,9 +5,14 @@ import 'package:gerador_json/ui/styles/app-colors.dart';
 class JsonFieldData extends StatelessWidget {
   final ValueChanged<String> onChanged;
   final List<TextInputFormatter>? inputFormatters;
+  final bool readOnly;
+  final TextEditingController? controller;
 
-
-  JsonFieldData({required this.onChanged, this.inputFormatters});
+  JsonFieldData(
+      {required this.onChanged,
+      this.inputFormatters,
+      this.readOnly = false,
+      this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +25,8 @@ class JsonFieldData extends StatelessWidget {
           color: AppColors.levelButtonFacil,
           borderRadius: BorderRadius.circular(8)),
       child: TextFormField(
+        controller: controller,
+        readOnly: readOnly,
         keyboardType: TextInputType.number,
         textAlign: TextAlign.center,
         onChanged: onChanged,

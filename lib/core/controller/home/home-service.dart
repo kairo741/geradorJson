@@ -32,6 +32,7 @@ class HomeService {
       }
     }
     // index - 1 da lista inicial, pois, não contém o objeto pai
-    print(sortedJsons);
+    // print(sortedJsons);
+    return sortedJsons;
   }
 }
